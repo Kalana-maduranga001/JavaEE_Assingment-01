@@ -1,0 +1,84 @@
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-section {
+    margin-bottom: 40px;
+}
+
+.form-floating > label {
+    color: #495057;
+}
+
+.btn-group {
+    margin-top: 15px;
+}
+
+.status-badge {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+.status-pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.status-inprogress {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.status-resolved {
+    background-color: #198754;
+    color: white;
+}
+
+table thead th {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+
+tbody tr:hover {
+    background-color: #e9f5ff;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.table-actions a {
+    margin-right: 8px;
+}
+
+.logout-btn {
+    white-space: nowrap;
+}
+
+@media (max-width: 575px) {
+    .form-floating > input, .form-floating > textarea {
+        height: auto;
+        padding: 1rem 0.75rem 0 0.75rem;
+    }
+    .table-responsive {
+        font-size: 0.85rem;
+    }
+}
